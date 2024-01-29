@@ -1,0 +1,39 @@
+@import url('https://fonts.google.com/specimen/Inter');
+
+:root {
+    --Off-white: hsl(36, 100%, 99%);
+    --blue: hsl(233, 8%, 79%);
+    --Darkgrayish : hsl(236, 13%, 42%);
+    --Very-dark-blue: hsl(240, 100%, 5%);
+
+    
+}
+body{
+    font-family:  'Inter', sans-serif;
+}
+.text{
+    color: var(--Darkgrayish)!important;
+}
+.fs-1{
+    color: var(--Very-dark-blue) !important;
+}
+ .btn{
+   background-color:var(--Very-dark-blue) !important;
+   color: var(--Off-white)!important;
+   border-radius: 0 !important;
+}
+.card-title{
+    color: hsl(35, 77%, 62%) !important;
+}
+p{
+    color: var(--Off-white)!important;
+}
+.card{
+    background-color: var(--Very-dark-blue) !important;
+    border-radius: 0 !important;
+}
+.card-text{
+    color: var(--blue)!important;}
+    hr{
+        color: var(--blue) !important;
+    }
