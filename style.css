@@ -13,14 +13,23 @@ body{
 }
 .text{
     color: var(--Darkgrayish)!important;
+    font-size: 15px;
 }
 .fs-1{
     color: var(--Very-dark-blue) !important;
+    font-weight: 500;
+}
+.fs-2{
+    color: var(--blue)!important;
 }
  .btn{
    background-color:var(--Very-dark-blue) !important;
    color: var(--Off-white)!important;
    border-radius: 0 !important;
+}
+.btn:hover{
+    background-color: hsl(5, 85%, 63%) !important ;
+    color: var(--Off-white) !important;
 }
 .card-title{
     color: hsl(35, 77%, 62%) !important;
@@ -36,4 +45,17 @@ p{
     color: var(--blue)!important;}
     hr{
         color: var(--blue) !important;
+    }
+    a:hover{
+       color:hsl(5, 85%, 63%) !important ;
+    }
+    h5.text{
+        color: var(--Very-dark-blue)!important;
+        
+    }
+    h5.text:hover{
+        color:hsl(5, 85%, 63%) !important ;
+    }
+    p.main:hover{
+        color: hsl(35, 77%, 62%) !important ;
     }
